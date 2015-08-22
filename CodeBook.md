@@ -4,7 +4,7 @@ The original codebook for the data set is located here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Abstract:  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+<b>Abstract:</b>  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 Number of instances: 10299
 
