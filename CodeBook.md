@@ -1,8 +1,12 @@
+## CodeBook for meandata.txt and meansummary.txt
+
 The data for this project were taken from the UCI Human Activity Recognition Using Smartphones Data Set.
 
 The original codebook for the data set is located here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+<b>The specific information about the data is taken directly from the UCI codebook.</b>
 
 <b>Abstract:</b>  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
