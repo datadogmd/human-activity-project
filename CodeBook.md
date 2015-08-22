@@ -21,6 +21,10 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The tidy data output to meandata.txt and meansummary.txt use the same activity names and attibute names as the original dataset.  Each row represents the activity measurement for the subject.  The attribute names are listed below:
 
 
+
+ one|two
+---------------|  four  
+
  [1] | subject  |                            activity                             tBodyAcc-mean()-X                    tBodyAcc-mean()-Y                   
  [5] tBodyAcc-mean()-Z                    tGravityAcc-mean()-X                 tGravityAcc-mean()-Y                 tGravityAcc-mean()-Z                
  [9] tBodyAccJerk-mean()-X                tBodyAccJerk-mean()-Y                tBodyAccJerk-mean()-Z                tBodyGyro-mean()-X                  
