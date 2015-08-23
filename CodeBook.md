@@ -6,22 +6,31 @@ The original codebook for the data set is located here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-<b>The specific information about the data is taken directly from the UCI codebook.</b>
+<b>The specific information about the data can be found in the the UCI codebook.</b>
 
-<b>Abstract:</b>  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database.  The original dataset is based on smartphone inertial sensor measurements for 30 subjects.
+<b>Abstract:</b>  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database.  The original dataset is based on normalized smartphone inertial sensor measurements for 30 subjects.
 
-<b>Data Set Information:</b>  As described in the UIC codebook, the dataset was randomly partitioned into training and test datasets.  These training and test datasets were reassembled into a tidy dataset using run_analysis.R.  The tidy data contain 10299 measurements of the 88 attributes associated with mean and standard deviation of the original data. The tidy data are output to *meandata.txt*, where each row represents the activity related measurements for each subject. The mean value for the attributes by subject and activity are output to *meansummary.txt*.  Both output datasets use the same activity and attribute names as the original data set.
+<b>Data Set Information:</b>  As described in the UIC codebook, the dataset was randomly partitioned into training and test datasets.  These training and test datasets were reassembled into a tidy dataset using run_analysis.R.  The tidy data contain 10299 measurements of the 88 attributes associated with mean and standard deviationS of the original data. The tidy data are output to *meandata.txt*, where each row represents the activity related measurements for each subject. The mean value for the attributes by subject and activity are output to *meansummary.txt*.  Both output datasets use the same activity and attribute names as the original data set.
 
 The activity names are:
+
 LAYING
+
 SITTING
+
 STANDING
+
 WALKING
-WALKING_UPSTAIRS
+
 WALKING_DOWNSTAIRS
 
+WALKING_UPSTAIRS
 
-The attribute names used in *meandata.txt* and *meansummary.txt* are listed below:
+
+
+
+The attribute names used in *meandata.txt* and *meansummary.txt* are:
+
 
  [1] subject ,                             activity   ,                          tBodyAcc-mean()-X   ,                 tBodyAcc-mean()-Y                   
  [5] tBodyAcc-mean()-Z ,                   tGravityAcc-mean()-X     ,            tGravityAcc-mean()-Y    ,            tGravityAcc-mean()-Z                
