@@ -10,12 +10,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 <b>Abstract:</b>  Tidy data set containing mean and standard deviation data extracted from the original Human Activity Recognition database.  The original dataset is based on smartphone inertial sensor measurements for 30 subjects.
 
-<b>Data Set Information:</b>
+<b>Data Set Information:</b>  As described in the UIC codebook, the dataset was randomly partitioned into training and test datasets.  These training and test datasets were reassembled into a tidy dataset using run_analysis.R.  The tidy data contain 10299 measurements of the 88 attributes associated with mean and standard deviation of the original data. The tidy data are output to *meandata.txt*, where each row represents the activity related measurements for each subject. The mean value for the attributes by subject and activity are output to *meansummary.txt*.  Both output datasets use the same activity and attribute names as the original data set.
 
-As described in the UIC codebook, the dataset was randomly partitioned into training and test datasetstwo sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. These training and test datasets were reassembled into a single dataset using run_analysis.R.
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. These training and test datasets were reassembled into a single dataset using run_analysis.R.<br><br>The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.</br>
+The activity names are:
 
-The tidy data output to *meandata.txt* and *meansummary.txt* use the same activity names and attibute names as the original dataset.  The *meandata.txt* contains 10299 measurements of 88 attributes where each row represents the activity related measurements for the subject.  Each row in *meansummary.txt* represents the mean value for the attributes for each subject and activity.  The attribute names are listed below:
+
+
+The attribute names used in *meandata.txt* and *meansummary.txt* are listed below:
 
  [1] subject ,                             activity   ,                          tBodyAcc-mean()-X   ,                 tBodyAcc-mean()-Y                   
  [5] tBodyAcc-mean()-Z ,                   tGravityAcc-mean()-X     ,            tGravityAcc-mean()-Y    ,            tGravityAcc-mean()-Z                
