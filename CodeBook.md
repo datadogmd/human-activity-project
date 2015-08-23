@@ -13,7 +13,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 <b>Data Set Information:</b>  As described in the UIC codebook, the dataset was randomly partitioned into training and test datasets.  These training and test datasets were reassembled into a tidy dataset using run_analysis.R.  The tidy data contain 10299 measurements of the 88 attributes associated with mean and standard deviation of the original data. The tidy data are output to *meandata.txt*, where each row represents the activity related measurements for each subject. The mean value for the attributes by subject and activity are output to *meansummary.txt*.  Both output datasets use the same activity and attribute names as the original data set.
 
 The activity names are:
-
+LAYING
+SITTING
+STANDING
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
 
 
 The attribute names used in *meandata.txt* and *meansummary.txt* are listed below:
