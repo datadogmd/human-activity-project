@@ -4,6 +4,9 @@
 
 This repo includes the script:  *run_analysis.R*
 
+## Note that this script clears the variables in the working enviroment using rm(list = ls()).  Do not run the script unless you are okay with this.
+
+
 *run_analysis.R* generates a tidy data set based on the data from the UCI Human Activity Recognition project provided at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
